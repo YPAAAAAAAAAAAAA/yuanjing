@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Yuanjing</title>
+<base href="vendor/">
+<link rel="stylesheet" href="yuanjing.css">
+<script src="/sandbox/_ready.js"></script>
+<!-- LICENSE.txt -->
+</head>
+<body>
+<div id="stage">
+  <canvas id="sky"></canvas>
+  <button id="gear" type="button" aria-label="Chart settings">⚙</button>
+  <p id="hint">idea after @guizhengliu (guizhengliu/yuanjing); clean-room implementation, no code copied</p>
+  <div id="note" hidden>
+    <button id="note-close" type="button">关闭</button>
+    <h2 id="note-title"></h2>
+    <p id="note-body"></p>
+  </div>
+</div>
+<div id="dock">
+  <h2>元境</h2>
+  <p id="pillars"></p>
+  <p id="elcount"></p>
+  <p id="shen"></p>
+  <label>公历 <input id="date" type="date" value="1998-08-16"></label>
+  <label>时间 <input id="time" type="time" value="12:00"></label>
+  <label>性别
+    <select id="gender">
+      <option value="">未指定</option>
+      <option value="m">乾</option>
+      <option value="f">坤</option>
+    </select>
+  </label>
+  <p id="reading"></p>
+  <p id="range">节气用太阳黄经近似，立春前后可能差一日，未校正真太阳时。子时按公历当日。拖动旋转，双指缩放，点星符或灵体看说明。</p>
+  <p id="credit">idea after @guizhengliu (guizhengliu/yuanjing); clean-room implementation, no code copied</p>
+</div>
+<script src="yuanjing.js"></script>
+</body>
+</html>
