@@ -1,0 +1,17 @@
+{
+  "id": "yuanjing",
+  "title": { "en": "Yuanjing", "zh": "元境" },
+  "intro": {
+    "en": "An inner sky for a birth moment: four pillars, ten gods and spirits orbit a seated figure. Drag to turn, pinch to zoom, tap a mark. Opens on 1998-08-16.",
+    "zh": "把一个生辰画成内景星空：四柱、十神与神煞绕着盘坐的灵体。单指拖动旋转，双指缩放，点星符看说明。打开即是一九九八年八月十六日。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/yuanjing.css",
+    "vendor/yuanjing.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/yuanjing"
+}
